@@ -1,3 +1,3 @@
-# learning
+# Learning
 
 Organizing my learninig notes.
