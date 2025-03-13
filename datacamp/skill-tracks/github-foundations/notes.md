@@ -64,6 +64,37 @@ Here's the most important commands. [^1]
 |`git restore --staged` | Remove all files from the staging area.|
 
 ## **2. Intermediate Git (Course)**
+
+Branch as a version of a repo, goals: new feature or fix bugs.
+
+### Branches
+
+| Command | Description |
+| ----------- | ----------- |
+|`git diff main chatbot`	|Compare the state of the main and chatbot branches|
+|`git branch`	|List all branches|
+|`git branch -m old_name new_name`	|Rename branch called old_name to new_name|
+|`git branch -d chatbot`	|Delete chatbot branch, which has been merged|
+|`git branch -D chatbot`	|Delete chatbot branch, which has not been merged|
+|`git merge ai-assistant`|From main, to merge ai-assistant into main|
+|`git merge ai-assistant main` | From another branch: git merge source destination
+
+### Clones
+
+| Command | Description |
+| ----------- | ----------- |
+ |`git clone path-to-project-repo`	 |Clones a repository from the specified path. |
+ |`git clone /home/george/repo`	 |Clones a local repository from the given path. |
+ |`git clone /home/george/repo new_repo`	 |Clones and renames a local repository. |
+ |`git clone URL`	|Clones a remote repository from the specified URL. |
+ |`git clone https://github.com/datacamp/project`	 |Clones a specific project from GitHub. |
+ |`git remote add name URL`	 |Adds a new remote with the specified name and URL. |
+ |`git remote add george https://github.com/george_datacamp/repo`	 |Creates a remote named george with the specified URL.
+|`git remote -v`	|Displays all configured remotes for the repository with their URLs.
+|`git fetch origin`	|Fetches updates from the remote repository but does not merge.
+|`git pull origin`	|Fetches updates from the remote and merges them into the current branch.
+|`git push origin documentation`	|Pushes changes from the local 'documentation' branch to the remote.
+
 ## **3. Introducation to GitHubt Concepts (Course)**
 ## **4. Introduction to GitHub Products: A Complete Guide (Resource)**
 ## **5. Intermediate Github Concepts (Course)**
