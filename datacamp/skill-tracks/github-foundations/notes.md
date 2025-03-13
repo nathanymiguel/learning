@@ -1,6 +1,15 @@
 # Notes
 Here's the most important commands. [^1]
 
+How to create update this file locally:
+1. the right repo `cd learning`
+2. create branch `git checkout -b update-notes-YYYY-MM-DD`
+3. stage the file `git add datacamp/skill-tracks/github-foundations/notes.md`
+4. commit the changes `git commit -m "Atualiza as notas do curso GitHub Foundations"`
+5. push the changes `git push origin update-notes-YYYY-MM-DD`
+6. create the PR in GitHub, remember to mention Fix #000 (issue number)
+
+
 ## **1. Introduction to Git (Course)**
 ### **Fundamentals**
 
@@ -80,6 +89,7 @@ Branch as a version of a repo, goals: new feature or fix bugs.
 |`git merge ai-assistant main` | From another branch: git merge source destination
 
 ### Clones
+
 
 | Command | Description |
 | ----------- | ----------- |
