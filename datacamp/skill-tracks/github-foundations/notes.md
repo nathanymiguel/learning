@@ -106,8 +106,33 @@ Branch as a version of a repo, goals: new feature or fix bugs.
 |`git push origin documentation`	|Pushes changes from the local 'documentation' branch to the remote.
 
 ## **3. Introducation to GitHubt Concepts (Course)**
+
+"How to create a repository and a README file for your data projects."
+
+"How to add, modify, and delete files, switch branches, create private repos, add collaborators, and generate Personal Access Tokens."
+
+"How to copy a repository, how to communicate with your peers on GitHub, and all about pull requests." 
+
 ## **4. Introduction to GitHub Products: A Complete Guide (Resource)**
+
+https://www.datacamp.com/blog/github-products
+
 ## **5. Intermediate Github Concepts (Course)**
+
+Authentication Methods: You explored different methods to secure GitHub repositories, such as:
+
+| Command | Description |
+| ----------- | ----------- |
+Two-Factor Authentication (2FA)|  Adds an extra security step by requiring a code from your phone, enhancing account protection.
+Personal Access Tokens (PATs)|  Serve as a substitute for passwords, allowing tools and tasks to access GitHub with customizable permissions.
+SAML Single Sign-On (SSO)|  Enables a single login for multiple services through a single identity provider, streamlining access management.
+2FA in GitHub Organizations|  You examined the importance of enforcing 2FA within your organization. Key insights included:
+
+Members who haven't enabled 2FA will be removed and notified if it's enforced.
+Recovery codes are available to regain access if a 2FA device is lost.
+
 ## **6. Introducation to GitHub CodeSpaces (Tutorial)**
+
+https://app.datacamp.com/learn/tutorials/github-codespaces
 
 [^1]: The most important commands ==until now== :joy:.
