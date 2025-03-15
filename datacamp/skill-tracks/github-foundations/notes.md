@@ -1,4 +1,6 @@
 # Notes
+https://app.datacamp.com/learn/skill-tracks/github-foundations
+
 Here's the most important commands. [^1]
 
 How to create update this file locally:
